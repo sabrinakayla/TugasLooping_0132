@@ -59,9 +59,16 @@ void tampilkanHasilFibo(bool hasil) {
 }
 
 int main() {
-while (true) {
-tampilMenu();
-cin >> pilihan;
-switch (pilihan) {
-case 1:
-inputUser(); tampilkanHasilPrima(isPrima(angka)); break;
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
+
+        switch (pilihan) {
+            case 1:
+            inputUser(); 
+            tampilkanHasilPrima(isPrima(angka)); 
+            break;
+            case 2:
+            inputUser();
+            tampilkanHasilFibo(isFibonacci(angka));
+            break;
