@@ -39,3 +39,9 @@ cout << "2. Cek Bilangan Fibonacci" << endl;
 cout << "0. Keluar" << endl;
 cout << "Pilih menu: ";
 }
+
+// Prosedur input user
+void inputUser() {
+cout << "Masukkan angka yang mau dicek: ";
+cin >> angka;
+}
