@@ -51,3 +51,6 @@ void tampilkanHasilPrima(bool hasil) {
     if (hasil) cout << "=> " << angka << " adalah bilangan prima!" << endl;
 else cout << "=> " << angka << " bukan bilangan prima." << endl;
 }
+
+// Prosedur output hasil fibonacci
+void tampilkanHasilFibo(bool hasil) {
