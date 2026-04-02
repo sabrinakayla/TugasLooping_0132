@@ -18,3 +18,4 @@ return true;
 
 // Fungsi cek fibonacci 
 bool isFibonacci(int n) {
+    int a = 0, b = 1;
