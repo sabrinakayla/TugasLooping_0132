@@ -15,3 +15,6 @@ i++;
 }
 return true;
 }
+
+// Fungsi cek fibonacci 
+bool isFibonacci(int n) {
