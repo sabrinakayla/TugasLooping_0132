@@ -45,3 +45,6 @@ void inputUser() {
 cout << "Masukkan angka yang mau dicek: ";
 cin >> angka;
 }
+
+// Prosedur output hasil prima
+void tampilkanHasilPrima(bool hasil) {
